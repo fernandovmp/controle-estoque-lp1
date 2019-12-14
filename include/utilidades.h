@@ -1,0 +1,10 @@
+void limpar();
+void pause();
+void removerQuebraLinha(char * string);
+void flush_in();
+void lerCampo(const char * mensagem, char * campo, int tamanho);
+int max(int a, int b);
+int min(int a, int b);
+void str_tolower(const char * string, const int lenght, char * lowerString);
+int strcmp_ignoreCase(const char * string, const char * substring);
+char * strstr_ignoreCase(const char * string, const char * substring);
